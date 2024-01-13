@@ -21,7 +21,7 @@ services:
             - composer
 
     db:
-        image: mariadb:latest
+        image: mariadb:10.4
         environment:
             MYSQL_USER: 'minical'
             MYSQL_PASSWORD: 'MiniCalPwd'
